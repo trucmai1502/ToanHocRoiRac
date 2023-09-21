@@ -1,0 +1,42 @@
+%! Package = PACKAGE_NAME
+%! Author = Dự tuyển 22
+%! Date = 21/09/2023
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{PACKAGE_NAME}[Concrete Mathematics]
+
+% For maths stuff
+\usepackage{amsmath}
+
+\usepackage{fancyhdr}
+
+% For replacing 'Theorem' with 'Định lý', etc
+\usepackage{etoolbox}
+\patchcmd{\theorem}{Theorem}{Định lí}{}{}
+\patchcmd{\corollary}{Corollary}{Hệ quả}{}{}
+\patchcmd{\lemma}{Lemma}{Bổ đề}{}{}
+\patchcmd{\proposition}{Proposition}{Đề xuất}{}{}
+\patchcmd{\axiom}{Axiom}{Tiên đề}{}{}
+\patchcmd{\example}{Example}{Ví dụ}{}{}
+\patchcmd{\definition}{Definition}{Định nghĩa}{}{}
+\patchcmd{\remark}{Remark}{Lời bình}{}{}
+\renewcommand{\@chapapp}{Chương}
+
+% For images
+\usepackage{graphicx}
+
+% For hyperlinks
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+% For corny sidenotes
+\usepackage{marginnote}
+
+% For removing page break after \maketitle
+\let\endtitlepage\relax
