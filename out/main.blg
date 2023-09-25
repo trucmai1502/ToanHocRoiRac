@@ -3,46 +3,56 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 A level-1 auxiliary file: chapters/preface.aux
 A level-1 auxiliary file: chapters/chapter1.aux
+A level-1 auxiliary file: chapters/chapter2.aux
+A level-1 auxiliary file: chapters/chapter3.aux
+A level-1 auxiliary file: chapters/chapter4.aux
+A level-1 auxiliary file: chapters/chapter5.aux
+A level-1 auxiliary file: chapters/chapter6.aux
+A level-1 auxiliary file: chapters/chapter7.aux
+A level-1 auxiliary file: chapters/chapter8.aux
+A level-1 auxiliary file: chapters/chapter9.aux
 The style file: plain.bst
 Database file #1: main.bib
-You've used 1 entry,
+Warning--empty publisher in citation120
+You've used 2 entries,
             2118 wiz_defined-function locations,
-            503 strings with 4122 characters,
-and the built_in function-call counts, 302 in all, are:
-= -- 24
-> -- 18
+            515 strings with 4383 characters,
+and the built_in function-call counts, 585 in all, are:
+= -- 47
+> -- 36
 < -- 0
-+ -- 7
-- -- 6
-* -- 19
-:= -- 59
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 5
++ -- 14
+- -- 12
+* -- 38
+:= -- 108
+add.period$ -- 6
+call.type$ -- 2
+change.case$ -- 10
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 12
-empty$ -- 23
-format.name$ -- 6
-if$ -- 59
+cite$ -- 3
+duplicate$ -- 24
+empty$ -- 45
+format.name$ -- 12
+if$ -- 116
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 2
-newline$ -- 8
-num.names$ -- 2
-pop$ -- 10
+int.to.str$ -- 2
+missing$ -- 4
+newline$ -- 13
+num.names$ -- 4
+pop$ -- 21
 preamble$ -- 1
-purify$ -- 5
+purify$ -- 10
 quote$ -- 0
-skip$ -- 6
+skip$ -- 12
 stack$ -- 0
-substring$ -- 5
-swap$ -- 1
+substring$ -- 10
+swap$ -- 2
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2
-warning$ -- 0
-while$ -- 2
-width$ -- 2
-write$ -- 12
+type$ -- 4
+warning$ -- 1
+while$ -- 4
+width$ -- 3
+write$ -- 21
+(There was 1 warning)

@@ -1,17 +1,18 @@
-%! Package = PACKAGE_NAME
+%! Package = CONCRETE_MATHS
 %! Author = Dự tuyển 22
-%! Date = 21/09/2023
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{PACKAGE_NAME}[Concrete Mathematics]
+\ProvidesPackage{style}[Concrete Mathematics]
 
 % For maths stuff
-\usepackage{amsmath}
+\RequirePackage{amsmath}
 
-\usepackage{fancyhdr}
+% For dices
+\RequirePackage{epsdice}
+\newcommand\vcdice[1]{\vcenter{\hbox{\epsdice{#1}}}}
 
 % For replacing 'Theorem' with 'Định lý', etc
-\usepackage{etoolbox}
+\RequirePackage{etoolbox}
 \patchcmd{\theorem}{Theorem}{Định lí}{}{}
 \patchcmd{\corollary}{Corollary}{Hệ quả}{}{}
 \patchcmd{\lemma}{Lemma}{Bổ đề}{}{}
@@ -23,10 +24,10 @@
 \renewcommand{\@chapapp}{Chương}
 
 % For images
-\usepackage{graphicx}
+\RequirePackage{graphicx}
 
 % For hyperlinks
-\usepackage{hyperref}
+\RequirePackage{hyperref}
 \hypersetup{
     colorlinks,
     citecolor=black,
@@ -35,8 +36,14 @@
     urlcolor=black
 }
 
+% For intervals
+\RequirePackage{interval}
+
 % For corny sidenotes
-\usepackage{marginnote}
+\RequirePackage{marginnote}
+
+% For quotes
+\RequirePackage{textcmds}
 
 % For removing page break after \maketitle
 \let\endtitlepage\relax

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.21)  21 SEP 2023 18:49
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.21)  25 SEP 2023 19:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -25,11 +25,8 @@ File: bk11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
 ) (./style.sty
+Package: style Concrete Mathematics
 
-LaTeX Warning: You have requested package `style',
-               but the package provides `PACKAGE_NAME'.
-
-Package: PACKAGE_NAME Concrete Mathematics
 (d:/Program Files/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip50
@@ -98,23 +95,9 @@ LaTeX Info: Redefining \Relbar on input line 971.
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
-(d:/Program Files/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+(d:/Program Files/texlive/texmf-dist/tex/latex/epsdice/epsdice.sty
+Package: epsdice 2007/02/15 by Thomas Heim (v. 2.1)
 
-\f@nch@headwidth=\skip53
-\f@nch@O@elh=\skip54
-\f@nch@O@erh=\skip55
-\f@nch@O@olh=\skip56
-\f@nch@O@orh=\skip57
-\f@nch@O@elf=\skip58
-\f@nch@O@erf=\skip59
-\f@nch@O@olf=\skip60
-\f@nch@O@orf=\skip61
-)
-(d:/Program Files/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count268
-)
 (d:/Program Files/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -138,6 +121,16 @@ File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
 ))
 \Gin@req@height=\dimen150
 \Gin@req@width=\dimen151
+)
+(d:/Program Files/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(d:/Program Files/texlive/texmf-dist/tex/latex/epsdice/epsdice.cfg)
+\c@eps@face=\count268
+)
+(d:/Program Files/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count269
 )
 (d:/Program Files/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2023-07-08 v7.01b Hypertext links for LaTeX
@@ -188,11 +181,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
  (d:/Program Files/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count269
+\c@section@level=\count270
 )
 \@linkdim=\dimen152
-\Hy@linkcounter=\count270
-\Hy@pagecounter=\count271
+\Hy@linkcounter=\count271
+\Hy@pagecounter=\count272
 
 (d:/Program Files/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2023-07-08 v7.01b Hyperref: PDFDocEncoding definition (HO)
@@ -200,7 +193,7 @@ File: pd1enc.def 2023-07-08 v7.01b Hyperref: PDFDocEncoding definition (HO)
 (d:/Program Files/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count272
+\Hy@SavedSpaceFactor=\count273
 
 (d:/Program Files/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2023-07-08 v7.01b Hyperref: PDF Unicode definition (HO)
@@ -212,7 +205,7 @@ Package hyperref Info: Plain pages OFF on input line 4182.
 Package hyperref Info: Backreferencing OFF on input line 4187.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4434.
-\c@Hy@tempcnt=\count273
+\c@Hy@tempcnt=\count274
 
 (d:/Program Files/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
@@ -228,7 +221,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count274
+\Fld@menulength=\count275
 \Field@Width=\dimen154
 \Fld@charsize=\dimen155
 Package hyperref Info: Hyper figures OFF on input line 6051.
@@ -243,9 +236,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6081.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count275
-\c@Item=\count276
-\c@Hfootnote=\count277
+\Hy@abspage=\count276
+\c@Item=\count277
+\c@Hfootnote=\count278
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
@@ -257,10 +250,10 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 \pdfm@box=\box53
-\c@Hy@AnnotLevel=\count278
-\HyField@AnnotCount=\count279
-\Fld@listcount=\count280
-\c@bookmark@seq@number=\count281
+\c@Hy@AnnotLevel=\count279
+\HyField@AnnotCount=\count280
+\Fld@listcount=\count281
+\c@bookmark@seq@number=\count282
 
 (d:/Program Files/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.st
 y
@@ -277,50 +270,74 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip62
+\Hy@SectionHShift=\skip53
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 36.
- (d:/Program Files/texlive/texmf-dist/tex/latex/marginnote/marginnote.sty
+Package hyperref Info: Option `colorlinks' set `true' on input line 37.
+ (d:/Program Files/texlive/texmf-dist/tex/latex/interval/interval.sty
+Package: interval 2019/03/06 v0.4
+
+(d:/Program Files/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(d:/Program Files/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks23
+\pgfkeys@temptoks=\toks24
+
+(d:/Program Files/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfi
+ltered.code.tex
+\pgfkeys@tmptoks=\toks25
+))))
+(d:/Program Files/texlive/texmf-dist/tex/latex/marginnote/marginnote.sty
 Package: marginnote 2018/08/09 1.4b non floating margin notes for LaTeX
-\c@mn@abspage=\count282
-)) (d:/Program Files/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+\c@mn@abspage=\count283
+)
+(d:/Program Files/texlive/texmf-dist/tex/latex/amsrefs/textcmds.sty
+Package: textcmds 2012/08/02 v2.00
+))
+(d:/Program Files/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2023-04-19 L3 backend support: XeTeX
-\g__graphics_track_int=\count283
+\g__graphics_track_int=\count284
 \l__pdf_internal_box=\box54
-\g__pdf_backend_object_int=\count284
-\g__pdf_backend_annotation_int=\count285
-\g__pdf_backend_link_int=\count286
+\g__pdf_backend_object_int=\count285
+\g__pdf_backend_annotation_int=\count286
+\g__pdf_backend_link_int=\count287
 )
 (D:/ToanHocRoiRac/out/main.aux (D:/ToanHocRoiRac/out/chapters/preface.aux)
-(D:/ToanHocRoiRac/out/chapters/chapter1.aux))
+(D:/ToanHocRoiRac/out/chapters/chapter1.aux)
+(D:/ToanHocRoiRac/out/chapters/chapter2.aux)
+(D:/ToanHocRoiRac/out/chapters/chapter3.aux)
+(D:/ToanHocRoiRac/out/chapters/chapter4.aux)
+(D:/ToanHocRoiRac/out/chapters/chapter5.aux)
+(D:/ToanHocRoiRac/out/chapters/chapter6.aux)
+(D:/ToanHocRoiRac/out/chapters/chapter7.aux)
+(D:/ToanHocRoiRac/out/chapters/chapter8.aux)
+(D:/ToanHocRoiRac/out/chapters/chapter9.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-4.
+3.
 
 (d:/Program Files/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 
 (d:/Program Files/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
@@ -331,7 +348,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: xetex.def on input line 149.
 
 (d:/Program Files/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 14.
+Package hyperref Info: Link coloring ON on input line 13.
 
 (D:/ToanHocRoiRac/out/main.out) (D:/ToanHocRoiRac/out/main.out)
 \@outlinefile=\write3
@@ -381,27 +398,202 @@ Underfull \hbox (badness 1009) in paragraph at lines 21--21
 []\TU/lmr/m/n/10.95 Làm bằng vàng cơ à.
  []
 
-[7]) [8] (D:/ToanHocRoiRac/out/main.bbl) [9
+[7]) [8]
+\openout2 = `chapters/chapter2.aux'.
+
+ (./chapters/chapter2.tex
+Chương 2.
+) [9
 
 
 
-] (D:/ToanHocRoiRac/out/main.aux
-(D:/ToanHocRoiRac/out/chapters/preface.aux)
-(D:/ToanHocRoiRac/out/chapters/chapter1.aux))
+
+]
+\openout2 = `chapters/chapter3.aux'.
+
+ (./chapters/chapter3.tex [10
+
+
+
+
+]
+Chương 3.
+) [11]
+\openout2 = `chapters/chapter4.aux'.
+
+ (./chapters/chapter4.tex [12
+
+
+
+
+]
+Chương 4.
+) [13]
+\openout2 = `chapters/chapter5.aux'.
+
+ (./chapters/chapter5.tex [14
+
+
+
+
+]
+Chương 5.
+) [15]
+\openout2 = `chapters/chapter6.aux'.
+
+ (./chapters/chapter6.tex [16
+
+
+
+
+]
+Chương 6.
+) [17]
+\openout2 = `chapters/chapter7.aux'.
+
+ (./chapters/chapter7.tex [18
+
+
+
+
+]
+Chương 7.
+) [19]
+\openout2 = `chapters/chapter8.aux'.
+
+ (./chapters/chapter8.tex [20
+
+
+
+
+]
+Chương 8.
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+[21]
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+
+Underfull \hbox (badness 1377) in paragraph at lines 70--70
+\TU/lmr/m/n/10.95 nhau, thì làm sao ta
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 70--70
+\TU/lmr/m/n/10.95 nhau, thì làm sao ta
+ []
+
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+File: dice.pdf Graphic file (type pdf)
+<use dice.pdf>
+[22]) [23]
+\openout2 = `chapters/chapter9.aux'.
+
+ (./chapters/chapter9.tex [24
+
+
+
+
+]
+Chương 9.
+) [25] (D:/ToanHocRoiRac/out/main.bbl [26
+
+
+
+]) [27] (D:/ToanHocRoiRac/out/main.aux (D:/ToanHocRoiRac/out/chapters/preface.a
+ux)
+(D:/ToanHocRoiRac/out/chapters/chapter1.aux)
+(D:/ToanHocRoiRac/out/chapters/chapter2.aux)
+(D:/ToanHocRoiRac/out/chapters/chapter3.aux)
+(D:/ToanHocRoiRac/out/chapters/chapter4.aux)
+(D:/ToanHocRoiRac/out/chapters/chapter5.aux)
+(D:/ToanHocRoiRac/out/chapters/chapter6.aux)
+(D:/ToanHocRoiRac/out/chapters/chapter7.aux)
+(D:/ToanHocRoiRac/out/chapters/chapter8.aux)
+(D:/ToanHocRoiRac/out/chapters/chapter9.aux))
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 25ECC55A465A3B197EB3035651FA9305;346.
+(rerunfilecheck)             Checksum: 6C854D0590B1B08F3E868C9C56EDF9EF;1429.
  ) 
 Here is how much of TeX's memory you used:
- 9310 strings out of 475585
- 146698 string characters out of 5773117
- 1919416 words of memory out of 5000000
- 30504 multiletter control sequences out of 15000+600000
- 563996 words of font info for 70 fonts, out of 8000000 for 9000
+ 10001 strings out of 475585
+ 167709 string characters out of 5773117
+ 1937416 words of memory out of 5000000
+ 31117 multiletter control sequences out of 15000+600000
+ 563091 words of font info for 67 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 87i,9n,93p,276b,330s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,13n,93p,459b,334s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on D:/ToanHocRoiRac/out/main.pdf (9 pages).
+Output written on D:/ToanHocRoiRac/out/main.pdf (27 pages).

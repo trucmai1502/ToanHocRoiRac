@@ -1,0 +1,91 @@
+\chapter{Xác suất Rời rạc}\label{ch:8}
+
+Những biến cố ngẫu nhiên xuất hiện rất nhiều, khi chúng ta muốn tìm hiểu về thế giới chúng ta đang sống.
+Trong toán học, \textit{Lí thuyết Xác suất} cho phép chúng ta tính khả năng xảy ra của những biến cố phức tạp, với giả định là các biến cố này tuân theo những tiên đề nhất định.
+Lí thuyết này có ứng dụng quan trọng trong tất cả các nhánh khoa học, và liên quan chặt chẽ với các kĩ thuật chúng ta đã tìm hiểu trong các chương trước.
+
+Xác suất được coi là \qq{rời rạc}, nếu có thể tính toán xác suất xảy ra của mọi biến cố bằng tổng thay vì tích phân.
+Chúng ta đang có nền tảng khá vững chắc với việc tính tổng, và chúng ta sẽ áp dụng nó cho một số vấn đề thú vị, liên quan đến xác suất và trung bình.
+
+\section{Định nghĩa}\label{sec:8.1}
+
+\marginpar[Với độc giả chưa quen thuộc với Lí thuyết Xác suất, thì xác suất cao là bạn nên đọc thử cuốn mở đầu của Feller \cite{citation120}.]{Với độc giả chưa quen thuộc với Lí thuyết Xác suất, thì xác suất cao là bạn nên đọc thử cuốn mở đầu của Feller \cite{citation120}.}
+
+Lí thuyết Xác suất mở đầu với ý tưởng về \textit{không gian xác suất}, là tập $\Omega$ gồm tất cả các biến cố có hể xảy ra, cùng một quy tắc gán xác suất $\Pr(\omega)$ cho mọi biến cố cơ bản $\omega \in \Omega$.
+Xác suất $\Pr(\omega)$ phải là một số thực không âm, và điều kiện
+
+\begin{equation}\label{eq:8.1}
+    \sum_{\omega \in \Omega} \Pr(\omega) = 1
+\end{equation}
+
+đúng trong mọi không gian xác suất rời rạc.
+Do đó, mỗi giá trị $\Pr(\omega)$ phải thuộc khoảng $\interval{0}{1}$.
+Ta gọi Pr là một hàm phân phối xác suất, do nó phân phối tổng xác suất là $1$ giữa các biến cố cơ bản $\omega$.
+
+Đây là một ví dụ: Khi chúng ta tung một cặp xúc xắc, tập $\Omega$ các biến cố cơ bản là $D^2 = \{ \vcdice{1} \vcdice{1}, \vcdice{1} \vcdice{2}, \text{\dots}, \vcdice{6} \vcdice{6} \}$, trong đó
+
+\begin{equation*}
+    \mathrm{D} = \{ \vcdice{1}, \vcdice{2}, \vcdice{3}, \vcdice{4}, \vcdice{5}, \vcdice{6} \}
+\end{equation*}
+
+là tập tất cả sáu giá trị có thể của một con xúc xắc.
+\marginpar[Gọi là dice, đừng gọi die.]{Gọi là dice, đừng gọi die.}
+Hai cách tung $\vcdice{1} \vcdice{2}$ và $\vcdice{2} \vcdice{1}$ được coi là phân biệt; nên không gian xác suất này có tất cả $6^2 = 36$ phần tử.
+
+Chúng ta thường giả định rằng xúc xắc là \qq{công bằng} --- tức là mỗi sáu khả năng của một con xúc xắc đều có xác suất $\frac{1}{6}$, và mỗi một trong $36$ khả năng trong $\Omega$ có xác suất $\frac{1}{36}$.
+\marginpar[\qq{Loaded dice} cẩn thận cướp cò đấy.]{\qq{Loaded dice} cẩn thận cướp cò đấy.}
+Tuy nhiên, chúng ta cũng có thể xét đến những xúc xắc \qq{không công bằng}, với một hàm phân phối xác suất khác.
+Chẳng hạn, giả sử:
+
+\begin{equation*}
+    \begin{aligned}
+        & \Pr\mathrm{}_1( \vcdice{1} ) = \Pr\mathrm{}_1( \vcdice{6} ) = \frac{1}{4}; \\
+        & \Pr\mathrm{}_1( \vcdice{2} ) = \Pr\mathrm{}_1( \vcdice{3} ) = \Pr\mathrm{}_1( \vcdice{4} ) = \Pr\mathrm{}_1( \vcdice{5} ) = \frac{1}{8}.
+    \end{aligned}
+\end{equation*}
+
+Khi đó ta có $\sum_{d \in D} \Pr\mathrm{}_1(\mathrm{d}) = 1$, nên $\Pr\mathrm{}_1$ là một hàm phân phối xác suất trên tập $\mathrm{d}$, và ta có thể gán xác suất cho các phần tử của $\Omega = \mathrm{d}^2$ theo quy tắc
+
+\begin{equation}\label{eq:8.2}
+    \Pr\mathrm{}_{11}( \mathrm{d} \mathrm{d} ) = \Pr\mathrm{}_1( \mathrm{d} ) = \Pr\mathrm{}_1( \mathrm{d'} ) \\
+\end{equation}
+
+Chẳng hạn, $\Pr\mathrm{}_{11}( \vcdice{6} \vcdice{3} ) = \frac{1}{4} \cdot \frac{1}{8} = \frac{1}{32}$.
+Phân phối xác suất này là hợp lệ, do
+
+\begin{equation*}
+    \begin{aligned}
+        \Pr\mathrm{}_{11}( \omega ) & = \sum_{\mathrm{d} \mathrm{d} \in \mathrm{D}^2} \Pr\mathrm{}_{11}( \mathrm{d} \mathrm{d} ) = \sum_{\mathrm{d}, \mathrm{d'} \in \mathrm{D}} \Pr\mathrm{}_1( \mathrm{d} ) \Pr\mathrm{}_1( \mathrm{d'} ) \\
+        & = \sum_{\mathrm{d} \in \mathrm{D}} \Pr\mathrm{}_1( \mathrm{d} ) \Pr\mathrm{}_1( \mathrm{d'} ) = 1 \cdot 1 = 1.
+    \end{aligned}
+\end{equation*}
+
+Ta cũng có thể xét trường hợp có một xúc xắc công bằng và một xúc xắc không công bằng,
+
+\begin{equation}\label{eq:8.3}
+    \Pr\mathrm{}_{01}( \mathrm{d} \mathrm{d} ) = \Pr\mathrm{}_0( \mathrm{d} ) \Pr\mathrm{}_1( \mathrm{d'} ), \text{ trong đó } \Pr\mathrm{}_0( \mathrm{d} ) = \frac{1}{6},
+\end{equation}
+
+khi đó $\Pr\mathrm{}_{01}( \vcdice{6} \vcdice{3} ) = \frac{1}{6} \cdot \frac{1}{8} = \frac{1}{48}$.
+\marginpar[Nếu tất cả các mặt của khối lập phương là giống nhau, thì làm sao ta phân biệt được mặt nào là mặt ngửa?]{Nếu tất cả các mặt của khối lập phương là giống nhau, thì làm sao ta phân biệt được mặt nào là mặt ngửa?}
+Xúc xắc ngoài đời thực không thực sự công bằng, do chúng không đối xứng một cách hoàn hảo; nhưng thường thì xác suất của chúng vẫn gần với $\frac{1}{6}$.
+
+Một \textit{biến cố} là một tập con của $\Omega$.
+Chẳng hạn, trong một trò tung xúc xắc, tập hợp
+
+\begin{equation*}
+    \{ \vcdice{1} \vcdice{1}, \vcdice{2} \vcdice{2}, \vcdice{3} \vcdice{3}, \vcdice{4} \vcdice{4}, \vcdice{5} \vcdice{5}, \vcdice{6} \vcdice{6} \}
+\end{equation*}
+
+là biến cố \qq{tung ra hai viên trùng nhau}.
+Mỗi phần tử $\omega$ của $\Omega$ được gọi là \textit{biến cố cơ bản}, do chúng không thể được chia thành các tập hợp nhỏ hơn; ta có thể hiểu $\omega$ như một biến cố $\{ \omega \}$ gồm một phần tử.
+
+Xác suất của một biến cố $\mathrm{A}$ được định nghĩa bởi công thức
+
+\begin{equation}\label{eq:8.4}
+    \Pr( \omega \in \mathrm{A} ) = \sum_{\omega \in \mathrm{A}} \Pr( \omega )
+\end{equation}
+
+và một cách tổng quát, với $\mathrm{R}( \omega )$ là một mệnh đề chứa $\omega$, ta viết \q{$\Pr( \mathrm{R}( \omega ) )$} để biểu thị tổng của tất cả $\Pr( \omega )$ mà $\mathrm{R}( \omega )$ là đúng.
+Như vậy, chẳng hạn, xác suất tung ra hai viên trùng nhau với xúc xắc công bằng là $\frac{1}{36} + \frac{1}{36} + \frac{1}{36} + \frac{1}{36} + \frac{1}{36} + \frac{1}{36} = \frac{1}{6}$; nhưng khi cả hai viên đều không công bằng, với hàm phân phối xác suất $\Pr\mathrm{}_1$, xác suất là $\frac{1}{16} + \frac{1}{64} + \frac{1}{64} + \frac{1}{64} + \frac{1}{64} + \frac{1}{16} = \frac{3}{16} > \frac{1}{6}$.
+Với các viên xúc xắc không công bằng này, biến cố \qq{tung ra hai viên trùng nhau} có xác suất xảy ra cao hơn.
