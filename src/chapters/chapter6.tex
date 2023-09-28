@@ -1,1 +1,131 @@
-\chapter{Các số Đặc biệt}\label{ch:6}
+\chapter{Dãy số Đặc biệt}\label{ch:6}
+
+Một vài dãy số xuất hiện thường xuyên trong toán mà chúng ta có thể nhận biết ngay được và đặt tên cho chúng. 
+Có thể nói đến những ví thân thuộc như dãy $\langle 1,4,9,16,\ldots \rangle$.
+
+\noindent
+
+Trong Chapter 1,chúng ta đã tìm hiểu "số tam giác" 
+$\langle 1,3,6,10,\ldots \rangle$,
+trong Chapter 4 là dãy số nguyên tố
+$\langle 2,3,5,7,\ldots \rangle$ 
+còn Chapter 5 là dãy Catalan:
+$\langle 1,2,5,14,\ldots \rangle$.
+
+\noindent
+
+Trong chương này, chúng ta sẽ làm quen với một vài những dãy số quan trọng nữa: 
+dãy Stirling $n \brace k$ hoặc $\begin{bmatrix} n \\ k \end{bmatrix}$, 
+dãy Euler ${\displaystyle \textstyle \left\langle {n \atop k}\right\rangle }$; 
+những số trong các dãy này đều có liên quan phần nào đến hệ thức nhị phân 
+$({n \atop k})$.
+Cuối cùng sẽ là những dãy như Harmonic series, Bernoulli series và Fibonacci.
+
+\section{Dãy Stirling}
+
+\noindent 
+
+Chúng ta bắt đầu với dãy thân thuộc với hệ thức nhị phân,dãy Stirling.
+Dãy này có 2 loại, thường được gọi đơn giản là "Dãy Stirling dạng 1 và dạng 2". 
+Mặc dù bản thân dãy số có đóng góp quan trọng vào lịch sử và những ứng dụng đa dạng,
+chúng vẫn chưa có một ký hiệu chính thức. Thông thường, chúng ta ký hiệu 
+$\begin{bmatrix} n \\ k \end{bmatrix}$  
+cho số Stirling loại 1 và
+${\displaystyle \textstyle \left \{ {n \atop k} \right \} }$
+cho số Stirling loại 2 (theo cách ký hiệu của Jovan Karamata).
+
+\noindent 
+
+Bảng 258 và 259 biểu diễn các giá trị của
+$\begin{bmatrix} n \\ k \end{bmatrix}$  
+và 
+${\displaystyle \textstyle \left \{ {n \atop k} \right \} }$, 
+với $(n,k) \leq 9$. Khi nói đễn dãy "1,7,6,1" thì có thể đó là 
+$\begin{bmatrix} n \\ k \end{bmatrix}$
+và dãy "6,11,6,1" thì là 
+${\displaystyle \textstyle \left \{ {n \atop k} \right \} }$, 
+cũng giống như cách mà chúng ta cho rằng dãy "1,4,6,4,1" là $({n \atop k})$ khi $n = 4$
+
+% Insert bảng 258 và bảng 259 vào đây
+
+\subsection{Stirling loại 2}
+
+
+Dãy Stirling loại thứ 2 thường xuất hiện nhiều hơn cả,nên chúng ta hãy nói về nó trước. 
+Chúng ta có thể định nghĩa 
+${\displaystyle \textstyle \left \{ {n \atop k} \right \} }$
+là cách chia $n$ số vào $k$ subset không rỗng. 
+Ví dụ,ta có 7 cách chia một dãy 4 phần tử vào 2 phần: 
+
+\marginpar{(Stirling đã xét loại thứ 2 trước trong sách của ông. \cite{citation343})}
+
+\begin{equation} 
+    \begin{aligned}
+        \left\{ 1,2,3 \right\} \cup \left\{ 4\right\} \\
+        \left\{1,2,4\right\} \cup \left\{ 3\right\} \\
+        \left\{ 1,3,4 \right\} \cup \left\{ 2\right\} \\
+        \left\{2,3,4 \right\} \cup \left\{1 \right\} \\
+        \left\{1,2\right\} \cup \left\{ 3,4\right\} \\
+        \left\{ 1,3\right\} \cup \left\{ 2, 4\right\} \\
+        \left\{1,4\right\} \cup \left\{2,3\right\} \\ 
+    \end{aligned}
+\end{equation}
+
+\indent
+Vậy nên $\displaystyle \textstyle \left \{ {4 \atop 2} \right \} = 7$.
+Một điều thú vị đó là, những ngoặc $\{$ và $\}$ dùng để định nghĩa set 
+được dùng để định nghĩa số Stirling trong trường hợp này.
+Cách ký hiệu này giúp ta có thể hiểu 
+$\left \{ {n \atop k} \right \}$ 
+như "n subset k".
+
+\indent
+Ta xét một số trường hợp của $k$:
+
+\begin{itemize}
+    \item Nếu $(k,n) = (1,0)$: Có $0$ cách chọn $0$ phần tử vào $1$ subset. 
+    \item Nếu $k = 1,n > 0$: 
+            \\Chỉ có $1$ cách chọn $n$ phần tử vào $1$ subset,chính là dãy ban đầu.
+    \item Nếu $k = 2$: \\
+        Có thể dễ dàng thấy rằng, $n = 0$ thì sẽ có $0$ cách chia. 
+
+        Xét dãy $n,(n > 0)$ phần tử và 2 subset sẽ được chia,ta có thể thấy 
+        một trong 2 set sẽ chứa phần tử cuối và một vài phần tử của $n - 1$ phần tử 
+        còn lại. Tổng cộng sẽ có $2^{n - 1}$ cách chia các phần tử đấy vào 2 subset 
+        và trừ đi trường hợp một trong 2 subset là rỗng, vậy ta có kết quả là:
+        \begin{equation}
+            \begin{aligned}
+                \left \{ {n \atop 2} \right \} = 2^{n - 1} - 1 \\
+                n \in \mathbb{Z^+}
+            \end{aligned}
+        \end{equation}
+\end{itemize}
+
+\indent
+Chúng ta có thể sử dụng cách lập luận vừa xong để suy được công thức truy hồi tính 
+$\left \{ {n \atop k} \right \}$ với mọi k:
+    \begin{itemize}
+        \item Nếu ta đặt phần tử cuối cùng thành một nhóm riêng. \\
+            Lúc đó ta sẽ còn $k - 1$ nhóm và $n - 1$ phần tử và
+            $\left \{ {n - 1 \atop k - 1} \right \}$ cách chọn cho phần còn lại.
+        \item Nếu ta cho phần tử cuối cùng vào $k$ nhóm hiện có.
+            Sau khi bỏ phần tử cuối cùng đi,ta còn $n - 1$ phần tử và $k$ nhóm để 
+            phân chia, $\left \{ {n - 1 \atop k} \right \}$ cách. Vì ta đẩy phần tử 
+            cuối cùng vào một trong $k$ nhóm nên cũng có $k$ cách 
+            chia $n - 1$ phần tử còn lại. Vậy tổng số sẽ là 
+            $k \cdot \left \{ {n - 1 \atop k} \right \}$ cách
+    \end{itemize}
+Vậy
+\begin{equation}
+    \begin{aligned}
+        \left \{ {n \atop k} \right \} = 
+        k \cdot \left \{ {n - 1 \atop k} \right \} + 
+        \left \{ {n -1 \atop k - 1} \right \} \
+        \forall \  n \in \mathbb{Z^+}
+    \end{aligned}
+\end{equation}
+
+\subsection{Dãy Stirling loại 1}
+Sự khác nhau giữa định nghĩa của loại 1 và loại 2 đó chính là
+ở loại 2 chúng ta chia các phần tử vào những cycles (cách sắp xếp vòng tròn ?),
+
