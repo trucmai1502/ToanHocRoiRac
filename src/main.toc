@@ -1,14 +1,14 @@
 \contentsline {chapter}{\numberline {1}Các Bài toán Đệ quy}{7}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Bài toán Tháp Hà Nội}{7}{section.1.1}%
-\contentsline {chapter}{\numberline {2}Tổng}{9}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Các Hàm trên Số nguyên}{11}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Lí thuyết Số}{13}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Hệ số Nhị thức}{15}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Dãy số Đặc biệt}{17}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Dãy Stirling}{17}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Stirling loại 2}{18}{subsection.6.1.1}%
-\contentsline {subsection}{\numberline {6.1.2}Dãy Stirling loại 1}{19}{subsection.6.1.2}%
-\contentsline {chapter}{\numberline {7}Hàm sinh}{21}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Xác suất Rời rạc}{23}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Định nghĩa}{23}{section.8.1}%
-\contentsline {chapter}{\numberline {9}Tiệm cận}{27}{chapter.9}%
+\contentsline {section}{\numberline {1.1}Bài toán Tháp Hà Tây}{7}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Tổng}{13}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Các Hàm trên Số nguyên}{15}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Lí thuyết Số}{17}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Hệ số Nhị thức}{19}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Dãy số Đặc biệt}{21}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Dãy Stirling}{21}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Stirling loại 2}{22}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Stirling loại 1}{23}{subsection.6.1.2}%
+\contentsline {chapter}{\numberline {7}Hàm sinh}{27}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Xác suất Rời rạc}{29}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Định nghĩa}{29}{section.8.1}%
+\contentsline {chapter}{\numberline {9}Tiệm cận}{33}{chapter.9}%

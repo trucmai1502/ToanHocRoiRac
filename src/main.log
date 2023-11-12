@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Arch Linux) (preloaded format=xelatex 2023.9.18)  28 SEP 2023 16:25
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Arch Linux) (preloaded format=xelatex 2023.9.18)  12 NOV 2023 01:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -337,59 +337,79 @@ Underfull \hbox (badness 1668) in paragraph at lines 10--10
 File: assets/chapter1/Tower of Hanoi.jpg Graphic file (type bmp)
 <assets/chapter1/Tower of Hanoi.jpg>
 
-Underfull \hbox (badness 1009) in paragraph at lines 21--21
+Underfull \hbox (badness 1009) in paragraph at lines 22--22
 []\TU/lmr/m/n/10.95 Làm bằng vàng cơ à.
  []
 
 
-Underfull \hbox (badness 1009) in paragraph at lines 21--21
+Underfull \hbox (badness 1009) in paragraph at lines 22--22
 []\TU/lmr/m/n/10.95 Làm bằng vàng cơ à.
  []
 
-[7]) [8]
+[7] [8]
+Underfull \hbox (badness 3058) in paragraph at lines 41--41
+\TU/lmr/m/n/10.95 lời giải của Allardice
+ []
+
+
+Underfull \hbox (badness 2409) in paragraph at lines 41--41
+\TU/lmr/m/n/10.95 Fraser [][]$[]$[][], đều không
+ []
+
+[9]
+Underfull \hbox (badness 1817) in paragraph at lines 70--70
+[]\TU/lmr/m/n/10.95 Quy nạp chứng minh
+ []
+
+
+Underfull \hbox (badness 1817) in paragraph at lines 70--70
+[]\TU/lmr/m/n/10.95 Quy nạp chứng minh
+ []
+
+[10]) [11]
 \openout2 = `chapters/chapter2.aux'.
 
- (./chapters/chapter2.tex
-Chương 2.
-) [9
+ (./chapters/chapter2.tex [12
 
 
 
 
 ]
+Chương 2.
+) [13]
 \openout2 = `chapters/chapter3.aux'.
 
- (./chapters/chapter3.tex [10
+ (./chapters/chapter3.tex [14
 
 
 
 
 ]
 Chương 3.
-) [11]
+) [15]
 \openout2 = `chapters/chapter4.aux'.
 
- (./chapters/chapter4.tex [12
+ (./chapters/chapter4.tex [16
 
 
 
 
 ]
 Chương 4.
-) [13]
+) [17]
 \openout2 = `chapters/chapter5.aux'.
 
- (./chapters/chapter5.tex [14
+ (./chapters/chapter5.tex [18
 
 
 
 
 ]
 Chương 5.
-) [15]
+) [19]
 \openout2 = `chapters/chapter6.aux'.
 
- (./chapters/chapter6.tex [16
+ (./chapters/chapter6.tex [20
 
 
 
@@ -406,24 +426,54 @@ Package amsmath Warning: Foreign command \atop;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 19.
 
-[17]
+[21]
 
-LaTeX Warning: Citation `citation343' on page 18 undefined on input line 60.
+LaTeX Warning: Citation `citation343' on page 22 undefined on input line 60.
 
-[18]) [19]
+[22]
+File: assets/chapter6/cycle.png Graphic file (type bmp)
+<assets/chapter6/cycle.png>
+
+
+Package amsmath Warning: Bracket group [1,2,3] at formula start!
+(amsmath)                It could be a misspelled positional argument.
+(amsmath)                If it belongs to the formula add a \relax in
+(amsmath)                front to hide it on input line 148.
+
+
+Underfull \hbox (badness 4531) in paragraph at lines 159--159
+[]\TU/lmr/m/n/10.95 ”There are nine and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+\TU/lmr/m/n/10.95 sixty ways of con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+\TU/lmr/m/n/10.95 structing tribal lays,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+\TU/lmr/m/n/10.95 And-every-single-one-of-
+ []
+
+[23] [24]) [25]
 \openout2 = `chapters/chapter7.aux'.
 
- (./chapters/chapter7.tex [20
+ (./chapters/chapter7.tex [26
 
 
 
 
 ]
 Chương 7.
-) [21]
+) [27]
 \openout2 = `chapters/chapter8.aux'.
 
- (./chapters/chapter8.tex [22
+ (./chapters/chapter8.tex [28
 
 
 
@@ -431,10 +481,10 @@ Chương 7.
 ]
 Chương 8.
 
-LaTeX Warning: Citation `citation120' on page 23 undefined on input line 12.
+LaTeX Warning: Citation `citation120' on page 29 undefined on input line 12.
 
 
-LaTeX Warning: Citation `citation120' on page 23 undefined on input line 12.
+LaTeX Warning: Citation `citation120' on page 29 undefined on input line 12.
 
 File: dice.pdf Graphic file (type pdf)
 <use dice.pdf>
@@ -460,7 +510,7 @@ File: dice.pdf Graphic file (type pdf)
 <use dice.pdf>
 File: dice.pdf Graphic file (type pdf)
 <use dice.pdf>
-[23]
+[29]
 File: dice.pdf Graphic file (type pdf)
 <use dice.pdf>
 File: dice.pdf Graphic file (type pdf)
@@ -489,16 +539,16 @@ File: dice.pdf Graphic file (type pdf)
 <use dice.pdf>
 File: dice.pdf Graphic file (type pdf)
 <use dice.pdf>
-
-Underfull \hbox (badness 1377) in paragraph at lines 70--70
-\TU/lmr/m/n/10.95 nhau, thì làm sao ta
- []
-
 
 Underfull \hbox (badness 1377) in paragraph at lines 70--70
 \TU/lmr/m/n/10.95 nhau, thì làm sao ta
  []
 
+
+Underfull \hbox (badness 1377) in paragraph at lines 70--70
+\TU/lmr/m/n/10.95 nhau, thì làm sao ta
+ []
+
 File: dice.pdf Graphic file (type pdf)
 <use dice.pdf>
 File: dice.pdf Graphic file (type pdf)
@@ -523,32 +573,32 @@ File: dice.pdf Graphic file (type pdf)
 <use dice.pdf>
 File: dice.pdf Graphic file (type pdf)
 <use dice.pdf>
-[24]) [25]
+[30]) [31]
 \openout2 = `chapters/chapter9.aux'.
 
- (./chapters/chapter9.tex [26
+ (./chapters/chapter9.tex [32
 
 
 
 
 ]
 Chương 9.
-) [27]
+) [33]
 No file main.bbl.
 (./main.aux (./chapters/preface.aux) (./chapters/chapter1.aux) (./chapters/chapter2.aux) (./chapters/chapter3.aux) (./chapters/chapter4.aux) (./chapters/chapter5.aux) (./chapters/chapter6.aux) (./chapters/chapter7.aux) (./chapters/chapter8.aux) (./chapters/chapter9.aux))
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F8981796C7786B70380FE37BE5B8B3DD;1868.
+(rerunfilecheck)             Checksum: 556EB999A289AEDBC8FA2AD93FA23257;1842.
  ) 
 Here is how much of TeX's memory you used:
- 10265 strings out of 478682
- 173191 string characters out of 5849665
- 1868018 words of memory out of 5000000
- 30132 multiletter control sequences out of 15000+600000
- 518960 words of font info for 72 fonts, out of 8000000 for 9000
+ 10294 strings out of 478682
+ 173618 string characters out of 5849665
+ 1870018 words of memory out of 5000000
+ 30156 multiletter control sequences out of 15000+600000
+ 519889 words of font info for 75 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 87i,13n,90p,487b,394s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,13n,90p,813b,394s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (27 pages).
+Output written on main.pdf (33 pages).
