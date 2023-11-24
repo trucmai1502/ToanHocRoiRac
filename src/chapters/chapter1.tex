@@ -98,7 +98,7 @@ Nghiên cứu của ta về tháp Hà Tây đã dẫn chúng ta đến với k�
 \end{equation*}
 \marginpar[Thật thú vị! Ta ẩn đi hệ số $\mathbf{+1}$ trong \eqref{eq:1.1} bằng cộng thêm phần tử thay vì trừ nó đi]{Thật thú vị: ta ẩn đi hệ số $\mathbf{+1}$ trong \eqref{eq:1.1} bằng cộng thêm phần tử thay vì trừ nó đi}
 Bây giờ nếu ta đặt $\mathrm{U}_n = \mathrm{T}_n + 1$, ta có:
-\begin{equation}\label{1.3}
+\begin{equation}\label{eq:1.3}
     \begin{aligned}
         & \mathrm{U}_0 = 1 \\
         & \mathrm{U}_n = 2 \times \mathrm{U}_{n - 1}, \text{ \ \ \ \ với } n > 0.
@@ -108,28 +108,28 @@ Thực sự không cần là thiên tài cũng thấy được dạng tổng qu�
 
 \section{Đường thẳng trên mặt phẳng}\label{sec:1.2}
 
-Bài toán ví dụ thứ hai của chúng ta mang hơi hướng hình học: Có bao nhiêu miếng bánh pizza một người có thể thu được qua n nhát cắt bởi dao cắt pizza? Hay nói cách khác: Số lượng vùng $\mathrm{L}_n$ tối đa có thể tạo ra bởi n đường thẳng trên mặt phẳng? 
+Bài toán ví dụ thứ hai của chúng ta mang hơi hướng hình học: Có bao nhiêu miếng bánh pizza một người có thể thu được qua n nhát cắt bởi dao cắt pizza? Hay nói cách khác: Số lượng khu vực $\mathrm{L}_n$ tối đa có thể tạo ra bởi n đường thẳng trên mặt phẳng? 
 \marginpar[(Chiếc pizza với phô mai Thụy Sĩ?)]{(Chiếc pizza với phô mai Thụy Sĩ?)}
 Bài toán này được giải vào năm 1826, bởi nhà toán học người Thụy Sĩ Jacob Steiner \href{J. Steiner, Einige Gesetze uber die Theilung der Ebene und des 5, 633. Raumes," Journal fur die reine und angewandte Mathematik 1 (1826), 349-364. Reprinted in his Gesammelte Werke, volume 1, 77-94}{$^{[338]}$}.
 
-Một lần nữa ta bắt đầu bằng cách xét các những trường hợp nhỏ, luôn luôn bằng trường hợp nhỏ nhất trước. Mặt phẳng với 0 đường thẳng có 1 vùng; với 1 đường thẳng có 2 vùng; và với 2 đường thẳng ta có 4 vùng:
+Một lần nữa ta bắt đầu bằng cách xét các những trường hợp nhỏ, luôn luôn bằng trường hợp nhỏ nhất trước. Mặt phẳng với 0 đường thẳng có 1 khu vực; với 1 đường thẳng có 2 khu vực; và với 2 đường thẳng ta có 4 khu vực:
 \begin{center}
     \includegraphics[width=1\textwidth]{assets/chapter1/Line Sequence.png}
 \end{center}
 (Mỗi đường thẳng kéo dài vô tận ra hai phía.)
 
-Thoạt nhìn ta thấy tất nhiên $\mathrm{L}_n = 2^n$! Vẽ thêm một đường thẳng nữa chỉ đơn giản là gấp đôi số vùng chúng ta có. Thật đáng tiếc là chúng ta đã sai. Ta chỉ có thể gấp đôi chúng nếu đường thẳng thứ $n$ chia mỗi vùng cũ thành hai vùng mới khác nhau; và quả thật một vùng cũ sẽ bị đường thẳng đấy cắt thành hai vùng mới, do mọi vùng cũ đều là hình lồi. 
-\marginpar[Một vùng được gọi là lồi khi và chỉ khi nó chứa tất cả các đoạn thẳng giữa hai điểm trong vùng đó. (Đó không phải là định nghĩa trong từ điển của tôi, nhưng đó là quy ước của các nhà toán học với nhau.)]{Một vùng được gọi là lồi khi và chỉ khi nó chứa tất cả các đoạn thẳng giữa hai điểm trong vùng đó. (Đó không phải là định nghĩa trong từ điển của tôi, nhưng đó là quy ước của các nhà toán học với nhau.)}
-Nhưng khi ta thêm đường thẳng thứ ba - đường thẳng được kẻ đậm ở hình dưới - ta nhận ra được rằng nó chỉ chia cắt nhiều nhất 3 vùng cũ, không quan trọng ta đặt hai đường thẳng trước đó như thế nào:
+Thoạt nhìn ta thấy tất nhiên $\mathrm{L}_n = 2^n$! Vẽ thêm một đường thẳng nữa chỉ đơn giản là gấp đôi số khu vực chúng ta có. Thật đáng tiếc là chúng ta đã sai. Ta chỉ có thể gấp đôi chúng nếu đường thẳng thứ $n$ chia mỗi khu vực cũ thành hai khu vực mới khác nhau; và quả thật một khu vực cũ sẽ bị đường thẳng đấy cắt thành hai khu vực mới, do mọi khu vực cũ đều là hình lồi. 
+\marginpar[Một khu vực được gọi là lồi khi và chỉ khi nó chứa tất cả các đoạn thẳng giữa hai điểm trong khu vực đó. (Đó không phải là định nghĩa trong từ điển của tôi, nhưng đó là quy ước của các nhà toán học với nhau.)]{Một khu vực được gọi là lồi khi và chỉ khi nó chứa tất cả các đoạn thẳng giữa hai điểm trong khu vực đó. (Đó không phải là định nghĩa trong từ điển của tôi, nhưng đó là quy ước của các nhà toán học với nhau.)}
+Nhưng khi ta thêm đường thẳng thứ ba - đường thẳng được kẻ đậm ở hình dưới - ta nhận ra được rằng nó chỉ chia cắt nhiều nhất 3 khu vực cũ, không quan trọng ta đặt hai đường thẳng trước đó như thế nào:
 \begin{center}
     \includegraphics[width=1\textwidth]{assets/chapter1/split_region.png}
 \end{center}
-Vậy $\mathrm{L}_3 = 4 + 3 = 7$ là số vùng nhiều nhất ta có thể tạo được.
+Vậy $\mathrm{L}_3 = 4 + 3 = 7$ là số khu vực nhiều nhất ta có thể tạo được.
 
-Sau khi suy nghĩ kỹ ta thấy được một cách tổng quát hóa phù hợp. Đường thẳng thứ $n$ (với $n > 0$) tăng số vùng hiện tại lên $k$ lần khi và chỉ khi nó cắt qua $k$ vùng, và nó cắt qua $k$ vùng khi và chỉ khi đường thẳng đó cắt những đường thẳng trước tại $k - 1$ điểm. Hai đường thẳng cắt nhau tại tối đa 1 điểm. Vì vậy nên đường thẳng mới sẽ cắt $n - 1$ đường thẳng cũ tại tối đa $n - 1$ điểm khác nhau, và ta có điều kiện: $k \leq n$. Ta đã thiết lập được cận trên của đáp án
+Sau khi suy nghĩ kỹ ta thấy được một cách tổng quát hóa phù hợp. Đường thẳng thứ $n$ (với $n > 0$) tăng số khu vực hiện tại lên $k$ lần khi và chỉ khi nó cắt qua $k$ khu vực, và nó cắt qua $k$ khu vực khi và chỉ khi đường thẳng đó cắt những đường thẳng trước tại $k - 1$ điểm. Hai đường thẳng cắt nhau tại tối đa 1 điểm. Vì vậy nên đường thẳng mới sẽ cắt $n - 1$ đường thẳng cũ tại tối đa $n - 1$ điểm khác nhau, và ta có điều kiện: $k \leq n$. Ta đã thiết lập được cận trên của đáp án
 $$\mathrm{L}_n \leq \mathrm{L}_{n - 1} + n \text{, \ \ \ \ với } n > 0$$
 Theo đó, khá là dễ để chứng minh dấu "=" ở công thức trên bằng quy nạp. Ta chỉ cần đặt đường thẳng thứ $n$ sao cho nó không song song với mọi đường thẳng khác (vậy nên nó cắt mọi đường thẳng), và sao cho nó không đi qua bất kỳ các điểm giao nhau nào trước đấy (thế nó mới cắt mọi đường thẳng tại các vị trí khác nhau). Vậy công thức truy hồi của bài này là
-\begin{equation}\label{1.4}
+\begin{equation}\label{eq:1.4}
     \begin{aligned}
         & \mathrm{L}_0 = 1 \\
         & \mathrm{L}_n = \mathrm{L}_{n - 1} + n, \text{ \ \ \ \ với } n > 0.
@@ -137,7 +137,8 @@ Theo đó, khá là dễ để chứng minh dấu "=" ở công thức trên b�
 \end{equation}
 Các giá trị $\mathrm{L}_1$, $\mathrm{L}_2$, $\mathrm{L}_3$ đều thỏa mãn công thức trên, nên có vẻ nó đúng.
 
-Giờ ta cần tìm thêm "dạng đóng" của đáp án. Ta có thể chơi trò đoán, nhưng $1, 2, 4, 7, 16, \dots$ không có vẻ gì là nổi bật; vậy hãy chuyển sang một hướng khác. Ta có thể giải những công thức truy hồi này bằng cách "dải" từng số hạng cho đến hết:
+Giờ ta cần tìm thêm "dạng đóng" của đáp án. Ta có thể chơi trò đoán, nhưng $1, 2, 4, 7, 16, \dots$ không có vẻ gì là nổi bật; vậy hãy chuyển sang một hướng khác. Ta có thể giải những công thức truy hồi này bằng cách "dải ra" từng số hạng một cho đến hết:
+\marginpar["Dải ra"? Là tôi, tôi sẽ gọi đây là "thế vào"]{"Dải ra"? Là tôi, tôi sẽ gọi đây là "thế vào"}
 \begin{equation*}
     \begin{split}
         \mathrm{L}_n & = \mathrm{L}_{n - 1} + n \\
@@ -150,4 +151,84 @@ Giờ ta cần tìm thêm "dạng đóng" của đáp án. Ta có thể chơi tr
 \end{equation*}
 Nói cách khác, $\mathrm{L}_{n}$ chỉ hơn 1 so với tổng $\mathrm{S}_n$ của $n$ số nguyên dương đầu tiên.
 
-Đại lượng $\mathrm{S}_n$ xuất hiện khá nhiều, vì thế ta cần lập bảng cho những trường hợp nhỏ của đại lượng trên. Như thế ta có thể nhận ra những số này dễ dàng hơn khi ta thấy chúng nhiều lần kế tiếp:
+Đại lượng $\mathrm{S}_n$ xuất hiện khá nhiều, vì thế ta cần lập bảng cho những trường hợp nhỏ của đại lượng trên, như thế ta có thể nhận ra các số này dễ dàng hơn:
+
+\begin{center}
+    \begin{tabular}{c | *{14}{c}}
+        $n$ & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 \\
+        \hline
+        $\mathrm{S}_n$ & 1 & 3 & 6 & 10 & 15 & 21 & 28 & 36 & 45 & 55 & 66 & 78 & 91 & 105 \\ 
+    \end{tabular}
+\end{center}
+Những giá trị trên còn được gọi là \textit{số tam giác}, bởi vì $\mathrm{S}_n$ là số con ki có trên một hình tam giác $n$ hàng. Ví dụ, một tam giác 4 hàng điển hình trong bowling có $\mathrm{S}_4 = 10$ con ki.
+
+Để tính được giá trị $S_n$ ta có thể sử dụng một kỹ thuật mà Gauss 
+\marginpar[Có vẻ như rất nhiều thứ được gán cho Gauss - hoặc ông cực kỳ thông minh hoặc ông có một người quản lý quảng cáo cực kỳ giỏi]{Có vẻ như rất nhiều thứ được gán cho Gauss - hoặc ông cực kỳ thông minh hoặc ông có một người quản lý quảng cáo cực kỳ giỏi} 
+"đầu tiên" nghĩ ra vào năm 1786, khi ông mới 9 tuổi \href{G. Waldo Dunnington, Carl Friedrich Gauss: Titan of Science. Exposition Press, New York, 1955.}{$[88]$} (xem thêm \href{Leonhard Euler, Vollstandige Anleitung zur Algebra. Erster Theil. Von den verschiedenen Rechnungs-Arten, Verhaltnissen und Proportionen. St. Petersburg, 1770. Reprinted in his Opera Omnia, series 1, volume 1. Translated into Russian, 1768; Dutch, 1773; French, 1774; Latin, 1790; English, 1797.}{Euler [114, phần 1, §415]}):
+
+\begin{center}
+    \begin{tabular}{{r} * {10}{c}}
+        $\mathrm{S}_n$ & = & 1 & + & 2 & + & $\dots$ & + & $(n - 1)$ & + & $n$ \\
+        + $\mathrm{S}_n$ & = & $n$ & + & $(n - 1)$ & + & \dots & + & 2 & + & 1 \\
+        \hline
+        $2\mathrm{S}_n$ & = & $(n + 1)$ & + & $(n + 1)$ & + & \dots & + & $(n + 1)$ & + & $(n + 1)$
+    \end{tabular}
+\end{center}
+
+\marginpar[Có lẽ ông ấy có bản tính làm mê hoặc lòng người]{Có lẽ ông ấy có bản tính làm mê hoặc lòng người}
+Ta chỉ cần cộng $\mathrm{S}_n$ với đảo ngược của nó, sao cho mỗi cột trong $n$ cột bên phải cộng lại bằng $n + 1$. Rút gọn lại ta có được:
+\begin{equation}\label{eq:1.5}
+    \begin{aligned}
+        & \mathrm{S}_n = \frac{n(n + 1)}{2}, \text{ \ \ \ \ với } n \geq 0.
+    \end{aligned}
+\end{equation}
+Vậy ta đã có lời giải cho bài toán:
+\begin{equation}\label{eq:1.6}
+    \begin{aligned}
+        & \mathrm{L}_n = \frac{n(n + 1)}{2} + 1, \text{ \ \ \ \ với } n \geq 0.
+    \end{aligned}
+\end{equation}
+\marginpar[Thực ra Gauss được coi là một trong những nhà toán học vĩ đại nhất mọi thời đại. Vì vậy sẽ tốt khi ta hiểu được một trong những phát kiến của ông ta]{Thực ra Gauss được coi là một trong những nhà toán học vĩ đại nhất mọi thời đại. Vì vậy sẽ tốt khi ta hiểu được một trong những phát kiến của ông ta}
+
+Là những chuyên gia, ta có thể khá mãn nguyện với bước biến đổi này và coi nó đã được chứng minh, dù cho ta bỏ qua chứng minh chặt chẽ khi ta "dải" các số hạng của $\mathrm{L}_n$ hay khi lật ngược $\mathrm{S}_n$ để tìm được công thức của nó. Nhưng những học trò của toán học như chúng ta phải đáp ứng được những tiêu chuẩn chặt hơn nữa, vì vậy sẽ rất tốt nếu ta chứng minh chặt chẽ công thức trên bằng quy nạp. Bước quy nạp quan trọng ở đây là:
+$$\mathrm{L}_n = \mathrm{L}_{n - 1} + n = \left(\frac{1}{2}n(n - 1) + 1\right) + n = \frac{1}{2}n(n + 1) + 1$$
+Giờ không còn nghi ngờ gì về "dạng đóng" của \eqref{eq:1.6} nữa.
+
+\marginpar[Khi nghi ngờ, hãy để ý đến các từ ngữ. Tại sao nó lại là "đóng" mà không phải là "mở"? Những hình ảnh gì hiện lên khi ta nghĩ về những từ đấy?]{Khi nghi ngờ, hãy để ý các từ ngữ. Tại sao nó lại là "đóng" mà không phải là "mở"? Những hình ảnh gì hiện lên khi ta nghĩ về những từ đấy?}
+Kỳ lạ thay ta liên tục nói về các "dạng đóng" mà không nói rõ ý của chúng ta là gì. Bình thường thì khá là rõ. Những công thức truy hồi như \eqref{eq:1.1} hay \eqref{eq:1.4} không phải là "dạng đóng" - chúng miêu tả một đại lượng bằng chính nó; nhưng những lời giải như \eqref{eq:1.2} hay \eqref{eq:1.6} có. Những tổng như $1 + 2 + \dots + n$ không phải "dạng đóng" - chúng ăn gian bằng cách dùng '$\dots$'; nhưng biểu thức như $\frac{n(n + 1)}{2}$ được coi là "dạng đóng". Ta có thể đưa
+\marginpar[Câu trả lời: Biểu thức gọi là "đóng", không định nghĩa bằng chính nó - không tiếp tục thành một quan hệ truy hồi. Vụ án đã được "đóng" lại - nó sẽ không xảy ra thêm lần nữa. Ẩn dụ là chía khóa.]{Câu trả lời: Biểu thức gọi là "đóng", không định nghĩa bằng chính nó - không tiếp tục thành một quan hệ truy hồi. Vụ án đã được "đóng" lại - nó sẽ không xảy ra thêm lần nữa. Ẩn dụ là chía khóa.}
+ra một định nghĩa hơi sơ sài như thế này: Một biểu thức cho đại lượng $f(n)$ được coi là "dạng đóng" khi ta có thể tính được chúng thông qua không quá một lượng xác định những phép tính "phổ biến", tiêu chuẩn. Lấy ví dụ, $2^n - 1$ và $\frac{(n + 1)n}{2}$ là dạng đóng bởi vì chúng chỉ dùng phép cộng, phép trừ, phép nhân, phép chia, và phép mũ một cách rõ ràng.
+
+Tổng số lượng các "dạng đóng" đơn giản là hữu hạn, và có những công thức truy hồi mà không có "dạng đóng" nào đơn giản. Khi những công thức truy hồi đấy trở nên quan trọng, bởi vì nó xuất hiện liên tục, ta thêm một số phép tính vào trong kho vũ khí toán học của chúng ta; làm thế này sẽ giúp mở rộng đáng kể phạm vi các bài toán mà ta giải được bằng những dạng đóng "đơn giản". Ví dụ như tích của $n$ số tự nhiên đầu tiên, $n!$, đóng góp một phần quan trọng trong toán học mà ta coi nó như một phép tính cơ bản. Do đó công thức $n!$ được coi là "dạng đóng" trong khi dạng tương đương của nó $1 \times 2 \times \dots \times \ n$ không phải.
+
+Giờ ta sẽ chuyển sang một biển thể của bài toán đường thẳng trên mặt phẳng: Giả sử thay vì ta dùng đường thẳng ta dùng đường gấp khúc, mỗi đường tạo bởi 2 tia. Vậy thì số lượng khu vực $\mathrm{Z}_n$ lớn nhất ta tạo ra được bằng n đường gấp khúc như vậy là bao nhiêu? Ta có thể đoán $\mathrm{Z}_n$ sẽ gấp đôi hoặc gấp ba lần $\mathrm{L}_n$. Hãy kiểm tra xem:
+
+\begin{center}
+    \includegraphics[width=1\textwidth]{assets/chapter1/small-case-zig-zag.png}
+\end{center}
+
+Từ hai trường hợp nhỏ trên, cùng với một chút suy nghĩ,
+\marginpar[... và với một chút suy nghĩ lại ...]{... và với một chút suy nghĩ lại ...}
+ta nhận ra rằng đường gấp khúc của chúng ta chính là hai đường thẳng trừ những khu vực được gộp lại khi mà hai đường thẳng đó không "vượt" quá điểm giao giữa bọn chúng.
+\begin{center}
+    \includegraphics[width=1\textwidth]{assets/chapter1/zig-zag-explanation.png}
+\end{center}
+Khu vực 2, 3, và 4, thông thường sẽ được tách biệt bằng hai đường thẳng, trở thành 1 khu vực duy nhất khi có đường gấp khúc như vậy, và ta mất hai khu vực. Tuy vậy, nếu ta đặt mọi thứ chính xác - mọi điểm bị gấp khúc của các đường đều nằm ngoài các giao điểm của các đường đó - và đó là tất cả ta mất; hai khu vực với mỗi đường.
+\marginpar[Bài tập 18 đi vào chi tiết hơn]{Bài tập 18 sẽ đi vào chi tiết hơn}
+Do đó: 
+\begin{equation}\label{eq:1.7}
+    \begin{aligned}
+        \mathrm{Z}_n = \mathrm{L}_{2n} - 2n & = 2n(2n + 1) / 2 + 1 - 2n \\
+                                            & = 2n^2 - n + 1, \text{\ \ \ \ với } n \geq 0
+    \end{aligned}
+\end{equation}
+So sánh các dạng đóng như \eqref{eq:1.6} với \eqref{eq:1.7}, ta thấy được rằng với giá trị lớn của $n$,
+\begin{equation*}
+    \begin{aligned}
+        \mathrm{L}_n & \sim \frac{1}{2}n^2, \\
+        \mathrm{Z}_n & \sim 2n^2; \\
+    \end{aligned}
+\end{equation*}
+vì vậy dùng đường gấp khúc của ta sẽ tạo ra số khu vực gấp 4 lần so với số khu vực tạo ra được bởi đường thẳng. (Trong những chương sau ta sẽ đề cập đến làm thế nào để phân tích các tính chất khi xấp xỉ các hàm nguyên với $n$ lớn. Kí hiệu '$\sim$' được định nghĩa tại phần 
+9.1% \ref{sec:9.1}
+).
